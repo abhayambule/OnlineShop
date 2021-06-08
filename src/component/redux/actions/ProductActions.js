@@ -1,4 +1,4 @@
-import ActionTypes from "../contants/ActionsTypes";
+import { ActionTypes } from "../contants/ActionsTypes";
 
 export const setProducts = (products) => {
   return {
@@ -10,5 +10,10 @@ export const selectedProducts = (product) => {
   return {
     type: ActionTypes.SELECTED_PRODUCTS,
     payload: product,
+  };
+};
+export const removeSelectedProducts = () => {
+  return {
+    type: ActionTypes.REMOVE_SELECTED_PRODUCTS,
   };
 };

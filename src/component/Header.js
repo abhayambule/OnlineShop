@@ -2,8 +2,8 @@ import React from "react";
 
 const Header = () => {
   return (
-    <div className="header">
-      <div className="header_main">
+    <div className="ui fixed menu">
+      <div className="ui container center">
         <h2>OnlineShop</h2>
       </div>
     </div>
